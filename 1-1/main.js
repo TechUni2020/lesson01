@@ -1,3 +1,3 @@
 
-console.log('こんにちは');
+console.log('Hello');
 
