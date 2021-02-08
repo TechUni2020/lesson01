@@ -1,5 +1,3 @@
-'use strict';
-
 const month = Number(process.argv[2]);
 
 switch (month) {
