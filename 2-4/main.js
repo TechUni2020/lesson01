@@ -1,6 +1,4 @@
-'use strict';
-
-const month = process.argv[2];
+const month = Number(process.argv[2]);
 
 switch (month) {
     case 2:
