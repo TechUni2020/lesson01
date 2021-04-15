@@ -23,6 +23,8 @@ switch(n){
     case 1:
         console.log("冬");
         break;
+    default:
+        console.log("ちゃんとせい")
 }
 
 // * 2〜4月：春
