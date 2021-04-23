@@ -13,6 +13,7 @@ for i in range(a[0]):
         elif i%2 == 1 and j%2 ==1:
             b.append('*')
 
+
 for i in range(a[0]):
     print(*b[n:n+s:1])
     n +=s
