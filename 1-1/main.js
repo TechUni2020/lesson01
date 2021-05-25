@@ -1,1 +1,2 @@
-console.log("Helloaaa World");
+<<<<<<< HEAD
+console.log("Hello World!");
