@@ -15,3 +15,17 @@
 8 16 24 32 40 48 56 64 72
 9 18 27 36 45 54 63 72 81
 ```
+
+const array_a = [1,2,3,4,5,6,7,8,9];
+let array_b = [1,2,3,4,5,6,7,8,9];
+
+const array_99 = [];
+
+for(var i = 0; i < array_a.length; i++ ){
+    var array_dan =[];
+    for(var j = 0; j < array_b.length; j++) {
+        array_dan.push(array_a[i] * array_b[j]);
+    }
+    array_99.push(array_dan);
+}
+console.table(array_99);
