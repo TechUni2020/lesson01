@@ -20,5 +20,8 @@ switch(mon){
     case '12':
     case '1':
     console.log('冬'); break;
+
+    default:
+      console.log('もう一度入力！');
     
 }
