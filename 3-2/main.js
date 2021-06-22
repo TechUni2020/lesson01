@@ -3,17 +3,17 @@ const arg2=process.argv[3];
 
 for(let i=0;i<arg1;i++){
   let array=[];
-  const x=[i];
+  //const x=[i];
   for(let j=0;j<arg2;j++){
-    const y=[j];
-    if(x%2==1){
-      if(y%2==1){
+    //const y=[j];
+    if(i%2==1){
+      if(j%2==1){
         array.push('*');
       }else{
         array.push('-');
       }
     }else{
-      if(y%2==1){
+      if(j%2==1){
         array.push('-');
       }else{
         array.push('*');
