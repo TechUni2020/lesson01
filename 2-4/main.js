@@ -15,7 +15,7 @@ switch (season){
   case '8':
   case '9':
   case '10':
-      console.log('秋')  
+      console.log('秋');
     break;
   case '11':
   case '12':
