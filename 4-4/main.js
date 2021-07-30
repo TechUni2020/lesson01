@@ -8,3 +8,4 @@ while (a) {
     arr[j] = t;
 }
 arr.forEach( function( value ) {console.log( value )} );
+// i
