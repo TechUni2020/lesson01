@@ -10,3 +10,4 @@ console.log(`${answer}%`);
 
 //18 50
 
+
