@@ -9,3 +9,4 @@ const answer=(num1/num2)*100;
 console.log(`${answer}%`);
 
 //18 50
+
