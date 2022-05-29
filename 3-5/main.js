@@ -29,7 +29,6 @@ console.log(placeArray);
 //   --
 //   10
 // その間は-で埋める
-// を生成して合体したい
 
 const space = " ";
 const star = "*";
