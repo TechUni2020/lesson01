@@ -3,4 +3,11 @@ const errorLogs = [
   "Error 3:Invalid Exception BBBB - 2020/01/01/02:00",
   "Error 22:Invalid Exception CCCCC - 2020/01/01/03:00",
 ];
-console.log(errorLogs.join("\n"));
+
+errorLogs.map((error) => {
+  const cutOffErrorLog = error.substring(
+    error.indexOf(":") + 1,
+    error.indexOf("-")
+  );
+  console.log(cutOffErrorLog);
+});
