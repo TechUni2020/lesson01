@@ -1,3 +1,4 @@
+//九九表を表示してみよう
 const resultsList = [];
 
 const multiCalc = (num) => {
